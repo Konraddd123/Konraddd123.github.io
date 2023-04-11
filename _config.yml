@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
+- name: Checkout
+  uses: actions/checkout@v2.7.0
+- name: Upload GitHub Pages artifact
+  uses: actions/upload-pages-artifact@v1.0.8
+- name: Deploy GitHub Pages site
+  uses: actions/deploy-pages@v2.0.0
